@@ -13,7 +13,7 @@ def main():
                 for files in path.normpath(inputDir):
                     try:
                         os.system("print.exe " + path.normpath(files))
-                    except expression as identifier:
+                    except Exception as identifier:
                         print("Oho noes!")
                         SystemExit(1)
             else:
